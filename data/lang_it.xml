@@ -1,0 +1,169 @@
+<lang
+mode="Modalita"
+campaign="Campagna"
+survival="Sopravvivenza"
+leeching="Sanguisuga"
+
+campaign_desc="Attacca i nemici nella loro base - Eliminali stanza per stnza, missione dopo missione."
+survival_desc="Allenamento al simulatore - fai del tuo meglio per vincere i premi piu ambiti."
+
+start='Inizia'
+share="Condividi"
+skip="Salta"
+intro="Intro"
+ok="Ok"
+buy='Compra'
+
+key_name_1="Chiave Blu" key_name_2="Chiave Gialla" key_name_3="Chiave Rossa"
+
+translated_by_NAME="Tradotto da Emanuele Feronato"
+
+you_have_been_restored_for="Sei stato riportato per"
+game_mode_1="Modalita normale"
+game_mode_desc_1="I nemici hanno HP e danni normali%eI punti in questa modalita sono al 100%"
+game_mode_2="Hard Mode"
+game_mode_desc_2="I nemici hanno HP e danni DOPPI%eI punti in questa modalita sono al 200%"
+
+tutorial="Tutorial"
+
+lvl_up="Level Up!"
+
+music_on="Music on"
+music_off="Music off"
+sound_on="Sound on"
+sound_off="Sound off"
+mish="Missione"
+back="Indietro"
+you_have_achieved="Hai guadagnato"
+
+stotyline="Storia"
+stotyline_intro="Seleziona una missione da giocare"
+hero_select="Selezione Mech"
+heroselect_intro="Seleziona un Mech con cui giocare"
+
+mish_ID_done="Missione ID Compiuta"
+lvl_stat_timer="Tempo"
+lvl_stat_xp="Esperienza guadagnata"
+lvl_stat_kills="Nemici uccisi"
+lvl_stat_cleared="Esplorato"
+explored="Esplorato"
+repair="Ripara"
+wave="Ondata"
+
+close="Indietro"
+next="Avanti"
+clear="Cancella"
+menu="Menu"
+rewards="Premi"
+shop="Negozio"
+
+items="Oggetti"
+mechs="Mechs"
+perks="Dispositivi"
+premium="Premium"
+all="Tutti"
+
+info="Info"
+weapons="Armi"
+upgrades="Potenziamenti"
+lvl="Livello"
+
+already_done="Gia fatto"
+already_max="Gia al massimo"
+not_worth_it="Non ne vale la pena"
+
+kills="Uccisioni"
+deads="Morti"
+
+play="Gioca"
+editor="Editor"
+scores="Punti"
+more_games="Altri giochi"
+submit="Invia"
+tasks="Compiti"
+
+effect="Effetto"    
+gauss="Penetrazione"
+selfguided="Autoguidato"
+splash="Area"
+stun="Blocca"
+slow="Rallenta"
+spread="Diffondi"
+stuff_desc_dmg_per="Aumenta il danno del VAL%"  
+stuff_desc_hp_repair="Ripara il mech di VAL HP dopo il combattimento" 
+stuff_desc_hp_add="Aggiungi +VAL agli HP del mach"
+aura_desc_slow="Rallenta i nemici per DURms con probabilita PER% in un raggio di RADpt"
+aura_desc_stun="Blocca i nemici per DURms con probabilita PER% in un raggio di RADpt"
+
+edit="Modifica"
+test="Testa"
+grid="Griglia"
+save="Salva"
+map="Mappa"
+options="Opzioni"
+inventory="Inventario"
+
+money="Punti Potenziamento"
+money_sc="UP"
+hp="Hit Points"
+armor="Armatura"
+hp_sc="HP"
+xp="Esperienza"
+xp_sc="XP"
+dps="Danni al secondo"
+dps_sc="DPS"
+gold="Monete"
+gold_sc="C"
+free="Gratis"
+sale_discount="Sconti"
+reload="Ricarica"
+dmg="Danni"
+rate="Rate"
+dmg_sc="DMG"
+not_enough_money="Non hai abbastaza soldi"
+not_enough_experience="Il tuo livello e troppo basso"
+are_you_sure="Vuoi veramente%etornare al menu?"
+cost="Costo"
+stunned="Bloccato"
+
+enemies_reclaimed_LIST_rooms="I nemici hanno bonificato LIST stanze."
+
+money_spend="Soldi spesi"
+mish_cleared="Missioni completate"
+hero_lvl="Livello Eroe"
+
+delete_save="Cancella salvataggio"
+graphics="Grafica"
+
+reward_1="Sergente"
+reward_2="Maggiore"
+reward_3="Killer"
+reward_4="Assassino"
+reward_5="Sopravvissuto"
+reward_6="Intoccabile"
+reward_7="Buon cliente"
+reward_8="Drogato dello shopping"
+reward_9="Scout"
+reward_10="Esploratore"
+
+ATTENTICION="TRANSLATOR! - in next sentences XY will be cahngeg to Game Coordinates, so make sure new text have XY in text"
+
+
+
+NOT_IMPORTANT="TRANLATOR! - After this there is just names of items, no neessesary to translate them, but it will be cool if you do so =)"
+
+
+DO_NOT_TRANSLATE="TRANLATOR! - DONT TRANSLATE AFTER THIS ATTRIBUTE!"
+
+hp_add="hp_sc"
+sale_discount_per="sale_discount"
+reload_per="reload"
+dmg_per="dmg"
+exp_add_bonus_per="xp"
+hp_repair="repair"
+
+
+
+
+
+/>

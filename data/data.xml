@@ -1,0 +1,87 @@
+<data>
+	<items potionsheal='50'>
+		<item type="weapon_meele" 			lvl='1' min='0' max='4' cost='750'/>
+		<item type="armor_meele" 			lvl='2' min='0' max='4' cost='750'/>
+		<item type="weapon_bow" 			lvl='2' min='0' max='4' cost='750'/>
+		<item type="armor_ranger" 			lvl='1' min='0' max='4' cost='750'/>
+	
+		<item type="silver_pack" 		lvl='1' min='0' max='5' cost='100'/>
+		<item type="marketday" 			lvl='1' min='0' max='2' cost='150'/>
+		<item type="xp_boost" 			lvl='1' min='0' max='5' cost='200'/>
+		<item type="potions" 			lvl='1' min='0' max='4' cost='250'/>
+		<item type="boost_magic" 		lvl='1' min='0' max='3' cost='300'/>
+		<item type="protectionring" 	lvl='1' min='0' max='1' cost='350'/>
+		
+		<item type="heal"		stype='global' book='water'	lvl='1' min='0' max='5' cost='500' 	cast='150'	tar='1' action='100,6,100,0'	actionlvl='20,2,100,0'/> Range, Targets, Power, Time
+		<item type="bless"		stype='global' book='water'	lvl='2' min='0' max='5' cost='750' 	cast='500'	tar='1' action='160,7,20,20'	actionlvl='10,2,5,1'/> 
+		
+		<item type="curse"		stype='global' book='earth'	lvl='1' min='0' max='5' cost='500' 	cast='250'  tar='0' action='100,12,50,10' 	actionlvl='10,2,50,2'/> Tar=1 - self, Tar=0 - enemies.
+		<item type="summon2"	stype='global' book='earth'	lvl='2' min='0' max='5' cost='750'  cast='1250'	tar='0' action='50,2,2,0' 	actionlvl='0,1,1,0' summon='spiderling' targets_str="spiders"/> 
+		
+		<item type="wind"		stype='global' book='air'	lvl='2' min='0' max='5' cost='750'  cast='300' tar='0' action='140,99,50,7' 	actionlvl='10,0,50,2'/>
+		<item type="lightning"	stype='global' book='air'	lvl='2' min='0' max='5' cost='750' 	cast='600' 	tar='0' action='100,2,135,0' 	actionlvl='10,1,70,0'/>
+		<item type="storm"		stype='global' book='air'	lvl='4' min='0' max='5' cost='1750' cast='1500' tar='0' action='130,99,70,7' 	actionlvl='10,0,55,3'/>
+		
+		<item type="fireslow"	stype='global' book='fire'	lvl='2' min='0' max='5' cost='1000' cast='750' 	tar='0' action='80,6,85,1' 		actionlvl='15,2,15,1'/>
+		<item type="meteors"	stype='global' book='fire'	lvl='3' min='0' max='5' cost='1000' cast='750' 	tar='0' action='75,1,85,0' 		actionlvl='5,1,1,0' targets_str="meteors"/>
+		<item type="firetrap"	stype='global' book='fire'	lvl='4' min='0' max='5' cost='1000' cast='750' 	tar='0' action='50,3,70,0' 		actionlvl='0,1,6,0' targets_str="traps"/>
+		
+		<item type="revive"		stype='global' book='void'	lvl='3' min='0' max='5' cost='1000' cast='1500'	tar='1' action='100,2,60,0' 	actionlvl='50,1,10,0'/>
+		<item type="summon1"	stype='global' book='void'	lvl='1' min='0' max='5' cost='500'  cast='1000'	tar='0' action='40,3,1,0' 	actionlvl='0,1,1,0' summon='giant_rat' targets_str="rats"/> 
+		<item type="summon3"	stype='global' book='void'	lvl='3' min='0' max='5' cost='1000' cast='1500'	tar='0' action='60,1,3,0' 	actionlvl='0,1,1,0' summon='skelet' targets_str="skelets"/> 
+		<item type="summon4"	stype='global' book='void'	lvl='4' min='0' max='5' cost='1500' cast='2000'	tar='0' action='70,1,4,0' 	actionlvl='0,0,1,0' summon='vampire' targets_str="none"/> 
+		
+		<item type="summon5"	stype='excluded' book='earth'	lvl='5' min='0' max='5' cost='2000' cast='2500'	tar='0' action='80,1,5,0' 	actionlvl='0,0,1,0' summon='golem' targets_str="none"/> 
+		
+		<item type="burn"		lvl='1' book='fire'	min='0' max='5' cost='500' 	cast='100'	tar='0' action='150,2,50,20'	actionlvl='25,1,10,5'/>
+		<item type="blind"		lvl='1' book='air'	min='0' max='5' cost='500' 	cast='100'	tar='0' action='100,2,30,20'	actionlvl='10,1,10,5' gfx_tar="build_crash_small"/>
+		<item type="freeze"		lvl='1' book='water'	min='0' max='5' cost='500' 	cast='100'	tar='0' action='100,1,30,15'	actionlvl='10,0,10,1'/>
+		
+		<item type="sheal"			lvl='1' book='water'	min='0' max='5' cost='500' 	cast='70'	tar='1' action='100,1,30,0'		actionlvl='10,1,10,0'/>
+		<item type="shield"			lvl='1' book='earth'	min='0' max='5' cost='750' 	cast='110'	tar='1' action='200,1,50,15'	actionlvl='0,1,25,1'/>
+		<item type="quake"			lvl='3' book='earth'	min='0' max='5' cost='750' 	cast='150' 	tar='0' action='100,9,200,0' 	actionlvl='10,1,100,0' tarsmin='2'/>
+		<item type="protect"		lvl='1' book='water'	min='1' max='5' cost='750' 	cast='150'	tar='1' action='200,1,3,15'		actionlvl='0,1,1,1'/>
+		<item type="scurse"			lvl='1' book='earth'	min='0' max='5' cost='500' 	cast='100'  tar='0' action='100,3,50,10' 	actionlvl='10,2,50,2' tarsmin='2'/>
+		<item type="srevive"		lvl='3' book='void'	min='0' max='5' cost='1000' cast='150'	tar='0' action='100,1,60,0' 	actionlvl='50,0,10,0'/>
+		<item type="haste"			lvl='1' book='air'	min='0' max='5' cost='750' 	cast='100'	tar='1' action='100,1,50,10'	actionlvl='0,0,10,5'/>
+		<item type="slow"			lvl='1' book='air'	min='0' max='5' cost='500' 	cast='100'  tar='0' action='100,3,50,8' 	actionlvl='10,0,25,2' tarsmin='2'/>
+		<item type="meteor"			lvl='2' book='fire'	min='0' max='5' cost='750' 	cast='90' 	tar='0' action='100,9,100,0' 	actionlvl='10,1,100,0' tarsmin='2'/>
+		<item type="plague"			lvl='2' book='void'	min='0' max='5' cost='500' 	cast='110'  tar='0' action='110,4,50,6' 	actionlvl='20,2,25,3' tarsmin='2' gfx_tar="magic_poison_cast"/>
+		<item type="pull"			lvl='1' book='air'	min='0' max='5' cost='250'	cast='100'	tar='0' action='200,1,100,0'	actionlvl='20,1,0,0' />
+		<item type="morph"			lvl='1' book='void'	min='0' max='5' cost='250'	cast='200'	tar='0' action='100,1,100,0'	actionlvl='30,0,0,0' />
+		<item type="clighting"		lvl='4' book='air'	min='0' max='5' cost='300'	cast='300'	tar='0'	action='600,3,100,0'	actionlvl='25,1,100,0' tarsmin='2'/>
+		<item type="mass_resist"	lvl='2' book='earth'	min='0' max='5' cost='300'	cast='300'	tar='1'	action='100,5,50,10'	actionlvl='25,2,25,1' tarsmin='2'/>
+	
+		<item type="nrevive"	lvl='3'	book='void'	min='0' max='5' cost='1000' cast='150'	tar='1' action='100,1,60,0' 	actionlvl='50,0,10,0'/>
+	</items>
+	<decors>
+		<decor type="bones2" bg='1'/>
+		<decor type="grass_holm" bg='1'/>
+		<decor type="grass_holm_" bg='1'/>
+		<decor type="grass_holm2" bg='1'/>
+		<decor type="grass_lake1" bg='1'/>
+		<decor type="grass_lake2" bg='1'/>
+		
+		<decor type="graveyard_1" bg='1'/>
+		<decor type="canalization1" bg='1'/>
+		<decor type="canalization2" bg='1'/>
+		
+		<decor type="craters_grass_1" bg='1'/>
+		<decor type="craters_grass_2" bg='1'/>
+		<decor type="craters_grass_3" bg='1'/>
+		<decor type="graveyard_3" bg='1'/>
+		
+		<decor type="craters_grass_1_water" bg='1'/>
+		<decor type="craters_grass_1_water1" bg='1'/>
+		<decor type="craters_grass_2_water" bg='1'/>
+		<decor type="craters_grass_2_water1" bg='1'/>
+		<decor type="craters_grass_3_water" bg='1'/>
+		<decor type="craters_grass_3_water1" bg='1'/>
+		<decor type="decor_necro_lake1" bg='1'/>
+		<decor type="necro_lake1" bg='1'/>
+		
+		<decor type="monsters_lair_ruins" bg='1'/>
+		<decor type="wagoon4" bg='1'/>
+		<decor type="monsters_lair2_ruins" bg='1'/>
+	</decors>
+</data>

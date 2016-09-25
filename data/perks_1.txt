@@ -1,0 +1,51 @@
+﻿--warrior 1
+City Fighter	armor:10,s:10	4/5/8	1
+Furious Charge	dmg_per:20	2/6	1
+Bladewall	armor:30	2/4/5	1
+Turtle	armor:35	3/7/8/9/10	1
+Warrior's spirit	true_dmg:25	8	1
+Evasive	dodge:20	8/9	1
+Swordmaster	dmg_per:20,armor:20	10	1
+Finishers	finisher:50	7	1
+
+--ranger 2
+Wide Formation	dodge:15	2/5	2
+Marksman	dmg_per:20	2	2
+Sniper	dmg_per:20	4	2
+Fire Arrow	magic_dmg:20	8	2
+Death Resilience Aura	aura:resist;30	4/5/8/9/10	2
+Scout Training	range:10	5/10	2
+
+--mage 3
+Elemental Wrath	magic_dmg:20	2	3
+Wind Shield	dodge:25	2/6/7	3
+School of Necromancy	magic_dmg:30	3/7	3
+Secret Knowledge	resist:25	4/8/9/10	3
+Wind Aura	aura:dodge;25	4	3
+Warrior's spirit	true_dmg:25	8	3
+Advanced Endurance	resist:35	7/10	3
+Aura of Wrath	aura:dmg;5	8/9	3
+Wizard's Power	dmg_per:20	8/9	3
+Meteor	spell:meteor	10	3
+
+--creature 4
+Sharp Tooth	dmg_per:30	2/4	4
+Furious Charge	dmg_per:20	2/6	4
+Avoidance	armor:15,dodge:15	4/5	4
+Poisonous Bite	poison_power:1	7	4
+Survival	survival:1	8	4
+
+--healer 5
+Death Resilience	resist:30	2/6/7/9	5
+Healing Power	healing:50	2/4	5
+Life Attack	true_dmg:30	3/4/7	5
+Elementary Resilience	resist:30	3/5	5
+Elementary Resilience Aura	aura:resist;30	4/7/8	5
+Healing Aura	aura:regen;1	5/6/9/10	5
+
+--common 0
+Perceptive	exp:30	3/6	0
+First Aid	regen:1	5/9	0
+Forced March	s:20	4/7/8/9/10	0
+Endurance	resist:15	2/5	0
+Elven Armor	armor:20,dodge:5	3/4/7	0	elf

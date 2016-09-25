@@ -1,0 +1,1028 @@
+﻿<lang	
+	ok="Ok"
+	cancel="Cancel"
+	cost="Cost"
+	master_volume="Master Volume"
+	
+	activation_joysticks="Press A or SPACE for switching to Joysticks"
+	activation_fullscreen="Press Y/Yellow to turn on fullscreen. Again - to switch it back."
+	
+	warping_power_increase="Your Majesty! I have a strange feeling. I bet your Warping power has been grown."
+	broken_sword_blacksmith_tip="Your Majesty, warping have destroyed all our items. But while cleaning dust - we have found a strange pieces. With some instructions I can put them together for good."
+	blacksmith_beast_spear="Your Majesty, I was trying to craft even better Spear. One that could kill even a seven-tailed fox. But It still not good. We should try maximum heat for better results."
+	blacksmith_neoserdy_staff_hint_more_blood="Your Majesty, Void Staff is a powerful item. Old legend says that it can be awakened by blood of heroes."
+	blacksmith_neoserdy_staff_hint_more_void="Your Majesty, looks like we need a rune to seal the blood for legendary Staff."
+	blacksmith_heal_potions="Your Majesty, I have noticed that you have a few potions. We can try to brew them - match 3 perhaps?"
+	
+	royal_heroes_barrack_troops_desctop_hint_1="HOLD Shift for improving troops without confirmation"
+	royal_heroes_barrack_troops_desctop_hint_2="You can use Mouse Wheel to scroll Heroes"
+	
+	elven_aim="Elven Aim"
+	
+	broken_sword="Broken Sword"
+	big_sword="BFS"
+	
+	died="Died"
+	alive="Alive"
+	injured="Injured"
+	troops_alive="Troops alive"
+	
+	
+	gift="Gift"
+	found="Found"
+	hired="Hired"
+	raids="Raids"
+	wins="Wins"
+	defeats="Defeats"
+	casted="Casted"
+	recipes_all="All Recipes"
+	
+	quiver="Quiver"
+	penetration="Penetration"
+	troops_dmg="Troops Damage"
+	story="Story"
+	rewards="Deily Rewards"
+	
+	magic_box='Magic Box'
+	mats='Resources'
+	equipment="Equipment"
+	create='Create'
+	brute_force="Brute Force"
+	lucky_charm="Lucky Charm"
+	
+	healing_pills="Healing Pills"
+	healing_potions="Healing Potions"
+	extra_pills="Extra Pills"
+	
+	head_shot="Headshot"
+	insta_kill="Instakill"
+	block="Block"
+	block_hint="Stops physical damage."
+	
+	silver="Silver"
+	money="Gold"
+	gold="Gold"
+	
+	class_0="Undecided"
+	class_1="Fighter"
+	class_2="Ranged"
+	class_3="Mage"
+	class_4="Beast"
+	class_5="Healer"
+	
+	statistics="Statistics"
+	quality_high="Quality High"
+	quality_low="Quality Low"
+	
+	warp1_hint="Step to next dimension. You will lose all items and all heroes."
+	warp2_hint="All levels will be reseted. Enemies will be stronger."
+	warp3_hint="You will get two super artefacts. You will keep some Heroes and artefacts."
+	warp4_hint="Troops can not warp."
+	
+	bard_hint="Сan use his song to buff those around him."
+	
+	mat_type_1='Wood'
+	mat_type_2='Metal'
+	mat_type_4='Magic'
+	mat_type_8='Threads'
+	info="Info"
+	power="Power"
+	
+	no_items_to_use_here="No proper items"
+	
+	blueprint='Blueprint'
+	blueprint_hint='New Blueprint'
+	opened_chests="Opened Chests"
+	
+	slot1='Weapon'
+	slot2='Helm'
+	slot3='Armor'
+	slot4='Boots'
+	slot5='Relic'
+	slot6='Relic'
+	
+	new_game='New Game'
+	
+	potion_exp='Exp Potion'
+	potion_exp_missing='Not enough experience potions'
+	
+	active_spells='Active Spells'
+	open_spells='Open Spells'
+	
+	summon1='Rats'
+	summon2='Spiderlings'
+	summon3='Undead'
+	summon4='Vampire'
+	summon5='Earth Golem'
+	
+	summon1_desc="Summons a few rats"
+	summon2_desc="Summons a few spiders"
+	summon3_desc="Summons a few undeads"
+	summon4_desc="Summons a powerful vampire"
+	summon5_desc="Summons a giant earth golem"
+	
+	sword='Sword'
+	spear="Spear"
+	scythe="Scythe"
+	axe='Axe'
+	helm='Helm'
+	boots='Boots'
+	shoes="Shoes"
+	diadem='Diadem'
+	amulet='Amulet'
+	bow='Bow'
+	staff='Staff'
+	ring='Ring'
+	rally_slot="Slot"
+	
+	slot_0_0="First middle Slot"
+	slot_1_0="Second middle Slot"
+	slot_2_0="Third middle Slot"
+	slot_3_0="Fourth middle Slot"
+	slot_4_0="Fifth middle Slot"
+	
+	slot_0_1="First right side Slot"
+	slot_1_1="Second right side Slot"
+	slot_2_1="Third right side Slot"
+	slot_3_1="Fourth right side Slot"
+	slot_4_1="Fifth right side Slot"
+	
+	slot_0__1="First left side Slot"
+	slot_1__1="Second left side Slot"
+	slot_2__1="Third left side Slot"
+	slot_3__1="Fourth left side Slot"
+	slot_4__1="Fifth left side Slot"
+	
+	slot_0_2="First right wing Slot"
+	slot_1_2="Second right wing Slot"
+	slot_2_2="Third right wing Slot"
+	slot_3_2="Fourth right wing Slot"
+	slot_4_2="Fifth right wing Slot"
+	
+	slot_0__2="First left wing Slot"
+	slot_1__2="Second left wing Slot"
+	slot_2__2="Third left wing Slot"
+	slot_3__2="Fourth left wing Slot"
+	slot_4__2="Fifth left wing Slot"
+	
+	extend="Extend"
+	upgrade="Upgrade"
+	upgrade_troops="Upgrade Troops"
+	hire_more_troops="Hire More Troops"
+	
+	upgrade_to="Upgrade to"
+	upgrade_first='Upgrade first'
+	already_max='Already at maximum.'
+	hiring_troops='Hiring Troops'
+	
+	login_lvlup_hint="You have earned:"
+	rally_extra_hint="Rally Upgrade"
+	barrak_extra_hint='Barrack Upgrade'
+	
+	extra_spell_slot="Extra spell slot"
+	
+	training='Training'
+	training_hint="Improves damage and vitality"
+	
+	dmg_crit_c="Critical chance"
+	dmg_crit_v="Critical damage"
+	
+	stage='Stage'
+	attack='Attack'
+	attack_hint='Fight for this part of kingdom'
+	
+	raid="Raid"
+	raid_hint="Fast raid for loot"
+	
+	stun="Stun"
+	stun_c="Stun"
+	
+	credits="Credits"
+	book="Encyclopedia"
+	wanted='Wanted'
+	exit='Exit'
+
+	extra_perk="Extra Skill"
+	select_perk="Select Perk"
+	select_difficulty="Select Difficulty"
+	select_hero='Select your Hero'
+	
+	ability="Ability"
+	achievments="Achievements"
+	back="Back"
+	barrack="Barrack"
+	tavern="Tavern"
+	baaah="Baaah!"
+	best_scores="High Scores"
+	bolt="Bolt"
+	bomb="Bomb"
+	buy="Buy"
+	buy_weapon="Buy super weapon"
+	close="Close"
+	slot="Slot"
+	rewarded="Rewarded"
+	
+	level_up="Level Up"
+	exp="Experience"
+	xp="Experience"
+	xp_sc="xp"
+	lvl="Lvl"
+	quit_game="Are you sure want to quit?"
+	
+	retirment='Retirement'
+	
+	question_build='Ready to build?'
+	question_upgrade="Ready to upgrade?"
+	question_buy='Ready to buy?'
+	question_fire='Are you sure want to fire NAME?'
+	confirming='Confirming'
+	question_refresh='Are you sure you want to refresh ALL heroes?%eEven high-level heroes will be removed.'
+	restart="Restart"
+	question_restart="Are you sure to remove ALL from this save?"
+	
+	success="Success"
+	
+	crusades="Crusades"
+	crusade_restart_desc="If you feel stuck - you can always restart and back with new perspective."
+	
+	
+	you_hired_by="You hired by"
+	daily_bonus="Daily Bonus"
+	rally="Rally"
+	recipts='Receipts'
+	daily_rewards="Daily Events"
+	daily_reward="Daily Event"
+	hero_level_up="Hero Leveled"
+	city_builder="City Builder"
+	market_used="Market used"
+	win="Win"
+	perk_learned="Learned new Skills"
+	item_crafted="Craft Item"
+	item_recycled="Recycle Item"
+	
+	recycled="Recycled"
+	crafted="Crafted"
+	
+	army="Army"
+	troops="Troops"
+	perks="Skills"
+	heroes="Heroes"
+	enemies="Enemies"
+	bosses="Bosses"
+	best_friend="Best Friend"
+	hero="Hero"
+	deployed="Deployed"
+	heroes_guild="Heroes Guild"
+	heroes_overcrowded="Not enough space. Gain more levels to get more hero space or fire weaker ones."
+	
+	
+	locked='Locked'
+	unlock="Unlock"
+	unlocked="Unlocked"
+	
+	donat="Gold"
+	bought="Bought"
+	
+	aoe_hint="Damaging enemies around"
+	
+	twitter="@EliteGamesNet"
+	
+	cup_bronze='Bronze'
+	cup_silver='Silver'
+	cup_gold='Gold'
+	
+	diff_1_name="Normal"
+	diff_2_name="Nightmare"
+	diff_3_name="Hell"
+	
+	dmt_type_1="Physical damage"
+	dmt_type_2="Magic damage"
+	dmt_type_3="True damage"
+	
+	holy="Holy"
+	holy_dmg_hint="Deals double damage to Undead."
+	
+	pull="Pull"
+	pull_desc="Pulls far enemy to caster"
+	morph="Polymorph"
+	morph_desc="Morphs target to harmless animal"
+	
+	moneypack1_hint="Basic pack"
+	moneypack2_hint="1000 extra gold for free"
+	moneypack3_hint="2000 extra gold for free"
+	moneypack4_hint="3000 extra gold for free"
+	moneypack5_hint="5000 extra gold for free"
+	moneypack10_hint="15000 extra gold for free"
+	moneypack50_hint="50000 extra gold for free"
+	
+	starterpack_hint="One time offer to fund your army"
+	
+	rune_fire="Fire Rune"
+	rune_water="Water Rune"
+	rune_earth="Earth Rune"
+	rune_air="Air Rune"
+	rune_void="Void Rune"
+	
+	quiver_1="Fire Tips"
+	quiver_2="Magic Tips"
+	quiver_3="Poison Tips"
+	quiver_4="Air Tips"
+	quiver_5="Void Tips"
+	
+	reward="Reward"
+	battle="Battle!"
+	next="Next"
+	grid="City Plan"
+	
+	miss="miss"
+	
+	normal_speed="Normal Speed"
+	fast_speed="Fast Speed"
+	
+	need_more_money="Need more Gold"
+	need_more='Need more'
+	
+	sound_on="Sound ON"
+	sound_off="Sound OFF"
+	music_on="Music ON"
+	music_off="Music OFF"
+	
+	party="Party"
+	loot='Loot'
+	grid_hint="Big items - buildings. Small items - units, items and spells."
+	
+	crafting_power="Crafting Power"
+	recycling_power="Recycling Power"
+	help="Help"
+	
+	favorite_weapon="favorite weapon"
+	favorite_spell="favorite spell"
+
+	barbarian="Barbarian"
+	barbarian_hint="Uses brute strength and raw fury to excel in combat."
+	bastard="Barbarian"
+	bastard_hint="Uses brute strength and raw fury to excel in combat."
+	
+	angel="Angel"
+	angel_hint="A winged fearless warrior"
+	amazon="Amazon"
+	amazon_hint="Fierce merciless warrior of rainforest."
+	
+	pirate="Pirate"
+	pirate_hint="Always looking for new treasures"
+	
+	warrior_mace="Phoenix"
+	warrior_mace_hint="Follower of a fire cult."
+	
+	warrior_hero="Warrior"
+	warrior_hero_hint="Fights well in melee."
+	warrior="Warrior"
+	warrior_defender="Knight"
+	warrior_defender_hint="He wears armor infused with gold."
+	paladin="Paladin"
+	paladin_hint="A holy knight, crusading in the name of good and order."
+	dwarrior="Zealot"
+	dwarrior_hint="Dark knights follow a path of pure Evil. AoE damage."
+	dwarriorshadow="Shadow Knight"
+	dwarriorshadow_hint="Dark knights have beliefs in pure Evil. AoE damage."
+	gnom="Dwarf"
+	gnom_hint="Dwarves wield devastating hammers and do not fear magic."
+	elf="Elf"
+	highelf="High Elf"
+	highelf_hint="Guardians of the forest, masters of the spear."
+	archer="Archer"
+	ranger="Ranger"
+	mag_blue="Wizard"
+	mag_red="Warlock"
+	mag_black="Necros"
+	tax_collector="Taxman"
+	taxes="Taxes"
+	knightarcher="Bowman"
+	knightarcher_hint="Knight equipped with a composite bow, seeking for Phoenix."
+	
+	goblin="Peasant"
+	goblin_hint="Simple, life-loving goblin."
+	goblin_sword="Green Peasant"
+	goblin_sword_hint="Simple, life-loving goblin."
+	goblin_swords="Master Peasant"
+	goblin_swords_hint="This one found second sword. Why not to swing both at same time?"
+	goblin_sniper="Green Arrow"
+	goblin_sniper_hint="Sneaky, but yet - very deadly one."
+	witch="Witch"
+	witch_hint="Wicked old women who have wrinkled skin, pimples, and pointy hat."
+	
+	nasus="Jackali"
+	nasus_hint="Protector of graves and cemeteries."
+	renekton="Renecton"
+	renekton_hint="Green of plumage, with alert face and raised fore."
+	azir='Horus'
+	azir_hint="The sky god controls the sun and the moon."
+	
+	goblin_warrior="Highborn"
+	goblin_warrior_hint="Born and raised to fight till death."
+	goblin_shield="Highborn"
+	goblin_shield_hint="Born and raised to fight till death."
+	goblin_archer="Green Arrow"
+	goblin_archer_hint="Sneaky and deadly."
+	goblin_shaman="Shaman"
+	goblin_shaman_hint='One to rule them all. He can cast powerful spells.'
+	goblin_elder="Shaman"
+	goblin_elder_hint='One to rule them all. He can cast powerful spells.'
+	great_shaman="Great Shaman"
+	
+	mingmage="Ring Mage"
+	mingmage_hint="His look will enfeeble, while his touch can freeze your heart."
+	you_dealt_dmg="Dealt damage by your army"
+	enemies_dealt_dmg="Enemies inflicted damage"
+	
+	tax_collector_hint="Pillar of an empire. Collects taxes from nearby houses."
+	warrior_hint="Fights well in melee."
+	mag_blue_hint="Holy mages, that can heal and strike down the undead."
+	mag_red_hint="Red mages who knows how to shoot fireballs."
+	mag_black_hint="Rumors tell that they have seen the face of death"
+	ranger_hint="Sleek looking individuals who primarily use bows."
+	archer_hint="Sleek looking individuals who primarily use bows."
+	elf_hint="The Elves have slim and nimble bodies."
+	mag_white="Airbender"
+	mag_white_hint="Sneaky master of lighting."
+	
+	genie='Genie'
+	genie_hint='Made of a smokeless and scorching fire. This one is on your side.'
+	airbow_blue='Air Bow'
+	airbow_blue_hint='Elemental air sealed in armor.'
+
+	giant_rat="Giant Rat"
+	giant_rat_hint="They are too big to be let go. Rats go crazy when provoked."
+	skelet="Skeleton"
+	skelet_hint="Soulless warriors that resist arrow attacks."
+	skeletarcher="Bone Archer"
+	skeletarcher_hint="Soulless archers that use their own bones as ammo."
+	skeletwarrior="Bone Warrior"
+	skeletwarrior_hint="He used to be a great knight before he took an arrow to the knee."
+	zombe="Zombie"
+	zombe_hint="An animated corpse raised by witchcraft."
+	medusa="Medusa"
+	medusa_hint="A hideous woman with venomous snakes in place of hair."
+	garpy="Harpy"
+	garpy_hint="Shrill flying creatures that hunt local villagers."
+	spider="Spider"
+	spider_hint="Poisonous spiders that prey on weak humans."
+	
+	mermaid="Mermaid"
+	mermaid_hint="Aquatic beauty that swings her trident as a pro."
+	
+	goblin_axe="Green Axe"
+	goblin_axe_hint="Born and raised to fight till death."
+	golem="Stone Giant"
+	golem_hint="Big stone giant. To slow to understand where is foe or ally."
+	sandspear="Sand Defender"
+	sandspear_hint="Spirit of desert, defending his master."
+	sandpriest="Sand Priest"
+	sandpriest_hint="Spirit of desert, defending his master."
+	ent="Ent"
+	ent_hint="Big living tree. Mostly sleeping, deadly if awaken."
+	veigar="Veigar"	
+	veigar_hint="Used to be small and cute, but old curse turned him to japanise worst nightmare."
+	
+	spiderling="Spiderling"
+	spiderling_hint="Small one - but still deadly venomous."
+	
+	orc="Orc Grunt"
+	orc_hint="These soldiers make excellent fodder for wading through humans."
+	orc_heavy="Orc Warchief"
+	orc_heavy_hint="Every 10th Orc is stronger then others - beware!"
+	
+	airgolem="Air Golem"
+	airgolem_hint="Pure air sealed by magic to walk amongst the living"
+	airsword="Air Sword"
+	airsword_hint="Enchanted armor with a sword."
+	airbow="Air Bow"
+	airbow_hint="Enchanted armor with a bow."
+	
+	vampire="Vampire"
+	vampire_hint="Very old undead that seeks fresh blood to keep him alive."
+	mag_evil="Necros"
+	mag_evil_hint="Half-dead mage who almost discovered the spell of eternity."
+	elf_evil="Dark Elf"
+	elf_evil_hint='This elf comes out only at night to stalk prey.'
+	minotaur="Minotaur"
+	minotaur_hint="Giant with the head of a bull on the body of a man."
+	trol="Troll"
+	trol_hint="Giant green beast. A very lonely creature living under bridges."
+	
+	dark_archer="Dark Archer"
+	
+	
+	giant_slayer_hint="Extra damage to Giants"
+	giant_hint="This is Giant. They can eat whole sheep with single bite."
+	
+	demolisher="Demolisher"
+	demolisher_hint="Extra damage to Buildings"
+	
+	
+	hammer_1="Bronze Hammer"
+	hammer_2="Iron Hammer"
+	hammer_3="Steel Hammer"
+	hammer_4="Adamantin Hammer"
+	hammer_5="Mithril Hammer"
+	
+	axe_1="Bronze Axe"
+	axe_2="Iron Axe"
+	axe_3="Steel Axe"
+	axe_4="Adamantin Axe"
+	axe_5="Mithril Axe"
+	sword_1="Bronze Sword"
+	sword_2="Iron Sword"
+	sword_3="Steel Sword"
+	sword_4="Adamantin Sword"
+	sword_5="Mithril Sword"
+	scythe_1="Bronze Scythe"
+	scythe_2="Iron Scythe"
+	scythe_3="Steel Scythe"
+	scythe_4="Adamantin Scythe"
+	scythe_5="Mithril Scythe"
+	spear_1="Bronze Spear"
+	spear_2="Iron Spear"
+	spear_3="Steel Spear"
+	spear_4="Adamantin Spear"
+	spear_5="Mithril Spear"
+	
+	staff_1="Fire Staff"
+	staff_2="Water Staff"
+	staff_3="Earth Staff"
+	staff_4="Air Staff"
+	staff_5="Void Staff"
+	
+	helm_1="Bronze Helm"
+	helm_2="Iron Helm"
+	helm_3="Steel Helm"
+	helm_4="Adamantin Helm"
+	helm_5="Mithril Helm"
+	
+	helm_6="Old Helm"
+	helm_7="Just Helm"
+	helm_8="Noble Helm"
+	helm_9="Hero Helm"
+	helm10="Royal Helm"
+	
+	armor_1="Bronze Armor"
+	armor_2="Iron Armor"
+	armor_3="Steel Armor"
+	armor_4="Adamantin Armor"
+	armor_5="Mithril Armor"
+	
+	cape_1="Old Cape"
+	cape_2="Just Cape"
+	cape_3="Noble Cape"
+	cape_4="Hero Cape"
+	cape_5="Royal Cape"
+	
+	bow_1="Pine Bow"
+	bow_2="Teak Bow"
+	bow_3="Hickory Bow"
+	bow_4="Oak Bow"
+	bow_5="Redwood Bow"
+	
+	boots_1="Bronze Boots"
+	boots_2="Iron Boots"
+	boots_3="Steel Boots"
+	boots_4="Adamantin Boots"
+	boots_5="Mithril Boots"
+	boots_6="Old Boots"
+	boots_7="Just Boots"
+	boots_8="Noble Boots"
+	boots_9="Hero Boots"
+	boots10="Royal Boots"
+	
+	amulet_1="Fire Amulet of Survival"
+	amulet_2="Water Amulet of Survival"
+	amulet_3="Earth Amulet of Survival"
+	amulet_4="Air Amulet of Survival"
+	amulet_5="Void Amulet of Survival"
+	
+	ring11="Fire Ring of Poison"
+	ring12="Water Ring of Poison"
+	ring13="Earth Ring of Poison"
+	ring14="Air Ring of Poison"
+	ring15="Void Ring of Poison"
+	
+	ring_1="Fire Ring of Magic Hunter"
+	ring_2="Water Ring of Magic Hunter"
+	ring_3="Earth Ring of Magic Hunter"
+	ring_4="Air Ring of Magic Hunter"
+	ring_5="Void Ring of Magic Hunter"
+	
+	ring_6="Fire Deadly Ring"
+	ring_7="Water Deadly Ring"
+	ring_8="Earth Deadly Ring"
+	ring_9="Air Deadly Ring"
+	ring10="Void Deadly Ring"
+	
+	amulet_6="Fire Amulet of Magic Hunter"
+	amulet_7="Water Amulet of Magic Hunter"
+	amulet_8="Earth Amulet of Magic Hunter"
+	amulet_9="Air Amulet of Magic Hunter"
+	amulet10="Void Amulet of Magic Hunter"
+	
+	amulet11="Fire Tough Amulet"
+	amulet12="Water Tough Amulet"
+	amulet13="Earth Tough Amulet"
+	amulet14="Air Tough Amulet"
+	amulet15="Void Tough Amulet"
+	
+	set01_helm='Super Helm'
+	set02_helm='Super Helm'
+	set03_helm='Super Helm'
+	set04_helm='Super Helm'
+	set01_armor='Super Armor'
+	set02_armor='Super Armor'
+	set03_armor='Super Armor'
+	set04_armor='Super Armor'
+	set01_boots='Super Boots'
+	set02_boots='Super Boots'
+	set03_boots='Super Boots'
+	set04_boots='Super Boots'
+	
+	set01_axe='Chop-chop Axe'
+	set01_amulet='Red Amulet'
+	set01_ring='Red Ring'
+	set02_staff='Super Staff'
+	set02_ring='Blue Ring'
+	set03_mace='Super Mace'
+	set03_pwr='Green Power'
+	set03_ring='Green Ring'
+	set04_whip='Super Whip'
+	set04_lamp='Magic Lamp'
+	set04_amulet='Air Amulet'
+	
+	size='Size'
+	crafting='Crafting'
+	crafting_hint='Add resources in special order to craft new item.'
+	recycling='Recycling'
+	recycling_hint='Add any items in any order to create random, but better one.'
+	
+	dmg="Damage"
+	dmg_per='Damage'
+	magic_dmg='Magic Damage'
+	true_dmg="True Damage"
+	hp="Hit Points"
+	hp_per="Hit Points"
+	mana="Mana"
+	range="Range"
+	targets="Targets"
+	duration="Duration"
+	limit="Limit"
+	armor="Armor"
+	armorreducion="Armor Reduction on Hit"
+	regenreducion="Regeneration Reduction on Hit"
+	resist="Resist"
+	dodge="Dodge"
+	vamp="Life steal"
+	poison="Poison"
+	poison_power="Poison"
+	arrow_speed="Ammunition"
+	speed="Speed"
+	s="Speed"
+	healing="Healing"
+	
+	more_mana="Mana Pool"
+	
+	adds_spell="Adds a Spell"
+	destroyer="Destroyer"
+	destroyer_hint="Extra damage to buildings"
+	finisher="Finisher"
+	finisher_hint="Extra damage to wounded units"
+	aura="Aura"
+	
+	whole_book_discovered="Whole Book Discovered"
+	
+	spell="Spell"
+	heal="Heal"
+	bless="Bless"
+	curse="Curse"
+	scurse="Curse"
+	storm="Storm"
+	revive="Revive"
+	lightning="Lightning"
+	clightning="Lightning"
+	clighting="Lightning surge"
+	clighting_hint="Shoots few lightning bolts"
+	wind="Wind"
+	wind_desc="Creates a sand whirlpool that sucks in all projectiles"
+	
+	burn="Burn"
+	burn_desc="Deals damage to enemies, decreasing regeneration and armor"
+	
+	quake="Quake"
+	quake_desc="Deals damage around caster"
+	
+	sheal="Heal"
+	srevive="Revive"
+	meteor="Meteor"
+	meteor_desc="Calls down a meteor - damaging enemies in area"
+	meteors="Meteors"
+	fireslow="Fireslow"
+	fireslow_desc="Deals damage to enemies, decreasing regeneration and armor"
+	meteors_desc="Call down rain of fire"
+	firetrap="Fire Traps"
+	traps="Traps"
+	firetrap_desc="Fire traps to slow down enemies"
+	shield="Thorn Shield"
+	plague="Plague"
+	plague_desc="Poison few enemies"
+	
+	mass_resist="Resist"
+	mass_resist_desc="Increase resist for group of allies"
+	
+	protect="Protect"
+	protect_desc="Buffs armor, resist and regeneration."
+	
+	heal_desc="Restore health to friendly targets, and damage enemy undeads"
+	bless_desc="Cast a buff: +#POWER for Armor, Resis, Damage"
+	curse_desc="Cast a damage debuff"
+	
+	revive_desc="Revives a few soldiers"
+	lightning_desc="Strikes a few enemies"
+	storm_desc="Cast a devastating storm"
+	
+	castle="Castle"
+	castle_hint="Improves your castle and increases the initial amount of silver"
+	blacksmith="Blacksmith"
+	blacksmith_hint="Craft weapons and armor to empower your heroes."
+	market="Market"
+	market_hint="Increases the income of silver"
+	library="Library"
+	warrior_guild="Warrior Guild"
+	ranger_guild="Ranger Guild"
+	wizard_guild="Wizard Guild"
+	wizard_guild_hint="You can learn and use spells in battle."
+	
+	onetime_desc="Boosts for next battle"
+	
+	weapon_meele="Swords 'n' Axes"
+	armor_meele="Heavy armor"
+	weapon_bow="Bows"
+	armor_ranger="Light armor"
+	weapon_meele_desc="Weapons for true warriors"
+	armor_meele_desc="Reduces a ton of damage."
+	weapon_bow_desc="Death from above"
+	armor_ranger_desc="When run out of arrows"
+	
+	raiding="Raids"
+	raiding_hint="Raid '3 star levels' to get extra bonuses and exp."
+	
+	warp="Warp"
+	need_more_cleared_maps_to_warp="Need more cleared maps to Warp"
+	
+	star='Star'
+	stars='Stars'
+	
+	linel="Linen"
+	rope="Rope"
+	cotton="Cotton"
+	flax="Flax"
+	silk="Silk"
+	fire="Fire"
+	teak="Teak"
+	pine="Pine"
+	oak="Oak"
+	hickory="Hickory"
+	air="Air"
+	water="Water"
+	earth="Earth"
+	energy="Void"
+	copper="Copper"
+	iron="Iron"
+	steel="Steel"
+	adamantin="Adamantin"
+	mithril="Mithril"
+	redwood="Redwood"
+	
+	reduction="Reduction"
+	ticket="Raid Ticket"
+	tickets="Raid Tickets"
+	potions="Heal potions"
+	potions_desc="Heroes use them when near death"
+	marketday="Bounty Hunter"
+	marketday_desc="Enemy heads will cost extra 50%"
+	protectionring="Protection ring"
+	protectionring_desc="Extra armor and magic resistance"
+	boost_magic="Magic Favor"
+	boost_magic_desc="Increase magic damage by 33% for all your Mages"
+	silver_pack="Silver pack"
+	silver_pack_desc="Extra 500 silver per pack"
+	xp_boost="XP boost"
+	xp_boost_desc="Increase heroes learning ability"
+	
+	refresh4="Gold Refresh"
+	refresh3="Silver Refresh"
+	refresh2="Bronze Refresh"
+	refresh1="Copper Refresh"
+	
+	congratulations="Congratulations"
+	controls="Controls"
+	defeat="Defeat"
+	english="English"
+	freeze="Freeze"
+	freeze_desc="Freeze the target for a while"
+	blind="Blind"
+	blind_desc="Greatly reduced chance to hit"
+	german="German"
+	instruction="Instruction"
+	kills="Kills"
+	deads="Dead"
+	mishs="Missions"
+	language="Language"
+	learning="Learning"
+	learn="Learn"
+	level="Level"
+	loading="Loading"
+	lost="Lost"
+	menu="Menu"
+	map="Map"
+	gold_shop="Gold Shop"
+	more_games="More Games"
+	music="Music"
+	no_points="No points"
+	off="off"
+	on="on"
+	options="Options"
+	pause="Pause"
+	play="Play"
+	refresh_pay="Refresh pay"
+	regen="Regeneration"
+	repair="Repair"
+	restore="Restore"
+	reloading="Reloading"
+	reset="Reset"
+	score="Score"
+	shop="Premium Shop"
+	skills="Skills"
+	scores="Scores"
+	sound="Sound"
+	tap="Tap to continue"
+	tap_to_close="Tap to Close"
+	tap_to_select="Tap to Select"
+	press_any_to_continue="Press any button to continue"
+	time="Time"
+	total_kills="Total kills"
+	total_lost="Total lost"
+	total_score="Total score"
+	total_time="Total time"
+
+	victory="Victory"
+	kill_ratio="Kill Ratio"
+	seconds="seconds"
+	
+	royal_saga_about_tavern="This is a Tavern - where you can find heroes to hire for your team. Stars represent their strength and skill."
+	royal_saga_about_cups="These are powerful heroes, but they're also lazy. Use your trophies to attract their attention."
+	royal_saga_get_more_heroes="We need at least five heroes to start your campaign."
+	
+	royal_saga_tutorial_tavern='Favorite haunt of any Hero. Here you can hire a few good swordsmen. You can refresh enlisting by spending some gold.'
+	
+	royal_saga_tutorial_magic_use="Great work at Wizard guild. Now lets test our new spells at next battle."
+	
+	royal_saga_tutorial_magic_upg="Congratulations on your success among wizards. They are powerful allies. Come back anytime to improve your magic books."
+	
+	royal_saga_tutorial_welcome='Welcome to our Kingdom. You have just been promoted to General. You must hire some soldiers in the Tavern in order to build your army.'
+	royal_saga_tutorial_rally='This is a Rally point - Here you can organize your army into formation before going into battle.'
+	
+	royal_saga_rally_1='Rally your troops and heroes.'
+	royal_saga_after_rally='With soldiers like these, you can send these Goblins running back to their caves.'
+	royal_saga_game_hp_bars='The %b%BLUE%b% bar indicates your troop HP.%eThe %r%RED%r% bar indicates enemy troop HP.'
+	royal_saga_game_timer='Defeat the enemy as fast as possible for 3 stars.'
+	royal_saga_after_win='Good work, General! As you venture forth, your battles will get harder. We will need more brave warriors.'
+	royal_saga_tutorial_new_hero='A new hero has joined us. Let`s meet him at the camp.'
+	royal_saga_tutorial_donat='An elite enemy army is gathering outside our city. We are outmatched. We must accelerate our training, if our troops are to have any hope of defeating this dark force.'
+	royal_saga_tutorial_advance='Now it`s time to teach these Goblins a lesson.'
+	royal_saga_tutorial_blacksmith='Hello, my Lord. I can see you`ve looted some worthy materials. I can use this to craft supplies for our troops, at the Blacksmith`s.'
+	royal_saga_tutorial_arts='My Lord, I`ve successfully crafted a new item. Let`s try it on one of our Heroes.'
+	royal_saga_tutorial_final1='Congratulations! All threats to the Kingdom have been eliminated. We are at peace, for now.'
+	royal_saga_tutorial_final2='Continue building up your power to provide better protection to your kingdom.'
+	
+	advanced_endurance="Advanced Endurance"
+	ancient="Ancient"
+	aura_of_wrath="Aura of Wrath"
+	avoidance="Avoidance"
+	bladewall="Bladewall"
+	bulls_eye="Bulls Eye"
+	city_destroyer="City Destroyer"
+	city_fighter="City Fighter"
+	corrosive="Corrosive"
+	dead_shot="Dead Shot"
+	cursed_castle="Cursed Castle"
+	darkcastle="Darkcastle"
+	darkest_mage="Darkest mage"
+	death_resilience="Death Resilience"
+	death_resilience_aura="Death Resilience Aura"
+	devour="Devour"
+	dexterity="Dexterity"
+	elemental_wrath="Elemental Wrath"
+	elementary_resilience="Elementary Resilience"
+	elementary_resilience_aura="Elementary Resilience Aura"
+	elven_armor="Elven Armor"
+	endurance="Endurance"
+	evasive="Evasive"
+	finishers="Finishers"
+	fire_arrow="Fire Arrow"
+	first_aid="First Aid"
+	forced_march="Forced March"
+	furious_charge="Furious Charge"
+	goblins_capital="Goblins Capital"
+	goblins_cave="Goblins Cave"
+	goblins_forest="Goblins Forest"
+	great_forest="Great Forest"
+	endless_forest="Endless Forest"
+	whirpool_of_destiny="Whirpool of Destiny"
+	cursed_mountain="Cursed Mountain"
+	harpy_queen="Harpy Queen"
+	haunted_bridge="Haunted Bridge"
+	healing_aura="Healing Aura"
+	healing_power="Healing Power"
+	invisibility="Invisibility"
+	life_attack="Life Attack"
+	marksman="Marksman"
+	medusas="Medusas"
+	minotaurs="Minotaurs"
+	perceptive="Perceptive"
+	poisonous_bite="Poisonous Bite"
+	rats="Rats"
+	ruins="Ruins"
+	recon_specialist="Recon Specialist"
+	school_of_necromancy="School of Necromancy"
+	scout_training="Scout Training"
+	secret_knowledge="Secret Knowledge"
+	sharp_tooth="Sharp Tooth"
+	shadow_blade="Shadow Blade"
+	skeletons="Skeletons"
+	sniper="Sniper"
+	smart="Smart"
+	tough="Tough"
+	spiders="Spiders"
+	swordmaster="Swordmaster"
+	turtle="Turtle"
+	vampires="Vampires"
+	warriors_spirit="Warrior's spirit"
+	wide_formation="Wide Formation"
+	wind_aura="Wind Aura"
+	wind_shield="Wind Shield"
+	winter_gate="Winter Gate"
+	wizards_power="Wizard's Power"
+	zombies="Zombies"
+	
+	wisdom_test="Test of Wisdom"
+	antiphysic_hint="Take heroes that do magic or true damage"
+	strength_test="Test of Strength"
+	antimagic_hint="Take heroes that do physical or true damage"
+	agility_test="Test of Agility"
+	antimelee_hint="Take ranged heroes. Melee will be turned to undeads"
+	
+	agility="Agility"
+	perk_free='Skill Book'
+	
+	goblins_caves='Goblin`s Caves'
+	green_forest='Green Forest'
+	trolls_valley="Troll Valley"
+	transylvania="Transylvania"
+	thessalonike="The Ssalonike"
+	atlanticbeach="Atlantic Beach"
+	greatcloud="Great Cloud"
+	
+	heroes_achiv_1="Master of Fire"
+	heroes_achiv_1_txt="Discover all fire spells"
+	heroes_achiv_2="Master of Water"
+	heroes_achiv_2_txt="Discover all water spells"
+	heroes_achiv_3="Master of Earth"
+	heroes_achiv_3_txt="Discover all earth spells"
+	heroes_achiv_4="Master of Air"
+	heroes_achiv_4_txt="Discover all air spells"
+	heroes_achiv_5="Master of Void"
+	heroes_achiv_5_txt="Discover all void spells"
+	
+	heroes_achiv_6="First Blood"
+	heroes_achiv_6_txt="Dont be a Batman - do it!"
+	heroes_achiv_7="First Great Hero"
+	heroes_achiv_7_txt="Hire a 4 star hero"
+	heroes_achiv_8="First Defeat"
+	heroes_achiv_8_txt="You cant be a winner al the time"
+	heroes_achiv_9="First Major Victory"
+	heroes_achiv_9_txt="Flawless victory - no casualties"
+	heroes_achiv_10="First Craft"
+	heroes_achiv_10_txt="Do something useful. DOIT!"
+	
+	heroes_achiv_11="Warp Master"
+	heroes_achiv_11_txt="Warp a few times"
+	heroes_achiv_12="Big Sword owner"
+	heroes_achiv_12_txt="Find and restore a famous weapon"
+	heroes_achiv_13="Sheepard"
+	heroes_achiv_13_txt="Find and pet atleast 10 sheeps"
+	heroes_achiv_14="Crusader"
+	heroes_achiv_14_txt="Veni Vidi Vici!"
+	
+	DONOTTRANSLATE_DO_NOT_TRANSLATE_AFTER_THIS="Dead translator, do not translate next sentences."
+	UPPERCASE_TEXT_DONT="Dear translator, DO NOT translate words that #UPPERCASED: spell='Damage +#POWER' translate damage, but leave POWER as is."
+	scurse_desc="curse_desc"
+	clighting_desc="lightning_desc"
+	sheal_desc="heal_desc"
+	srevive_desc="srevive_desc"
+/>
