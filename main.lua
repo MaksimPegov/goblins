@@ -52,6 +52,17 @@ for i = 1,#words do
 end;
 -----------движение гоблинов---------------
 Runtime:addEventListener("enterFrame",function()
+	------ трупавозка -------	
+	for i =#enemies, 1, -1 do 
+		local mc = enemies[i];
+		if(mc.dead)then
+			if(mc.body:spritePlaying() == false) then
+				mc:removeSelf();
+				table.remove(enemies,i);
+			end;
+		end;
+	end
+	------ игровая логика ---
 	for i = #enemies,1,-1 do
 		local mc =enemies[i];
 		if(mc.dead ~= true)then
