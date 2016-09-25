@@ -97,15 +97,7 @@ function new(gType, gid, map_lvl)
 			if(unit_mc._stuned>0 or unit_mc._frozen>0)then
 				unit_mc:turnCon(99999);
 			end
-			if(unit_mc._raged)then
-				sound_play("enraged_out");
-			elseif(eliteSoundsIns:sound_check("death_"..unit_mc._type))then
-				sound_play("death_"..unit_mc._type);
-			elseif(unit_data._goblin)then
-				sound_play("death_goblin_any");
-			else
-				sound_play("death");
-			end
+			
 		end
 		
 		if(unit_mc._stuned>0)then
