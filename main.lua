@@ -46,6 +46,7 @@ for i = 1,#words do
 	mc.y = math.random(1,#words)*H/#words - H/10;
 -----------------------Добовление текста на экран---------
 	local word = getWord();
+	mc.word = word;
 	local dtxt = display.newText(mc,word,0,0,nil,30);
 --------------------------------------------------
 	table.insert(enemies,mc)
@@ -67,7 +68,7 @@ Runtime:addEventListener("enterFrame",function()
 		local mc =enemies[i];
 		if(mc.dead ~= true)then
 				mc.x = mc.x + mc.s;
-			if(mc.x > W/2) then
+			if(mc.x > W) then
 				misses = misses + 1;
 				refresh();
 				mc.body:setAct("death");
@@ -76,3 +77,22 @@ Runtime:addEventListener("enterFrame",function()
 		end;
 	end;
 end);
+
+local keys = {};
+
+Runtime:addEventListener('key', function (event)
+	if(event.phase=="down")then
+		table.insert(keys,event.keyName);
+		print(event.phase, event.keyName,table.concat(keys,""));
+		local word = table.concat(keys,'')
+		for i=#enemies,1,-1 do
+			local mc = enemies[i];
+			if (mc.word==word)then
+				mc.body:setAct("death");
+				table.remove(enemies,i);
+				keys = {};
+				break;
+			end;
+		end;
+	end;
+end)
