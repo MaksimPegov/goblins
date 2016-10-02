@@ -26,23 +26,15 @@ function getWord()
 	local id = math.random(1,#words)
 	return words[id];
 end
-for i = 1,#words do
+----Добовление гоблинов----
+function addEnemy()
 	local mc = display.newGroup();
-	--local body = display.newCircle(0,0,100);
 	local unit = require("objUnit").new("goblin_shaman",1,1)
 	mc.s = math.random(1,5);
 	mc:insert(unit);
 	mc.body = unit;
 	unit:setDir(100,0);
 	unit:setAct("go");
-	--mc:insert(body);
-------------------------Удаляем круги------------[[
---	mc:addEventListener("tap",function(e)
---		mc:removeSelf();
---	end);
-	
------------------------Перемещаем круг------------
-	--mc.x = math.random()*W;
 	mc.y = math.random(1,#words)*H/#words - H/10;
 -----------------------Добовление текста на экран---------
 	local word = getWord();
@@ -53,6 +45,9 @@ for i = 1,#words do
 end;
 -----------движение гоблинов---------------
 Runtime:addEventListener("enterFrame",function()
+	if(#enemies<2)then
+		addEnemy();
+	end;
 	------ трупавозка -------	
 	for i =#enemies, 1, -1 do 
 		local mc = enemies[i];
