@@ -12,13 +12,14 @@ W = display.contentWidth;
 H = display.contentHeight;
 
 local enemies = {};
-local words = {"tom","cat","max","dog","math","fin"} --слова--
+local words = {"tom","cat","max","dog","math","fin","uly","mops","sip","lox","nub"} --слова--
 local game = display.newGroup();
 local face = display.newGroup();
 local misses = 0;
 local misstxt = display.newText(face,"Hellow world",W/2,30,nil,20)
 local hits = 0;
 local hitstxt = display.newText(face,"hits",W/2,50,nil,20)
+local enemies_max = 1
 
 function refresh()
 	misstxt.text = misses;
@@ -26,19 +27,36 @@ function refresh()
 end
 
 function getWord()
-	local id = math.random(1,#words)
-	return words[id];
+	local ttl = 30
+	local word = "1234567890"
+	while((word:len() > enemies_max + 2 or word:len() < enemies_max) and ttl > 0) do
+		local id = math.random(1,#words)
+		word = words[id];
+		ttl = ttl - 1;
+	end;
+	return word;
 end
 ----Добовление гоблинов----
 function addEnemy()
+	local ty = math.random(1,#words)*H/#words - H/10;
 	local mc = display.newGroup();
 	local unit = require("objUnit").new("goblin_shaman",1,1)
+	for i=1,#enemies do
+		local ei = enemies[i];
+		local dx = ei.x - 0;
+		local dy = ei.y - ty
+		local dd = dx * dx + dx * dx
+		if(dd < H*H/25)then
+			return;
+		end;
+	end
 	mc.s = math.random(1,5);
 	mc:insert(unit);
 	mc.body = unit;
 	unit:setDir(100,0);
 	unit:setAct("go");
-	mc.y = math.random(1,#words)*H/#words - H/10;
+	mc.y = ty;
+
 -----------------------Добовление текста на экран и гоблинов---------
 	local word = getWord();
 	mc.word = word;
@@ -55,7 +73,7 @@ function addEnemy()
 end;
 -----------движение гоблинов---------------
 Runtime:addEventListener("enterFrame",function()
-	if(#enemies<2)then
+	if(#enemies<enemies_max)then
 		addEnemy();
 	end;
 	------ трупавозка -------	
@@ -98,6 +116,9 @@ Runtime:addEventListener('key', function (event)
 					--mc.body:setAct("death");
 					mc:doDeath();
 					hits = hits + 1;
+					if(hits >= 5 + 5 * enemies_max)then
+						enemies_max = enemies_max + 1;
+					end;
 					refresh();
 					table.remove(enemies,i);
 					keys = {};
